@@ -1,5 +1,12 @@
 def perform_operations(a, b):
-    # Write your code here
+    Sum=a+b
+    Difference=a-b
+    Product=a*b
+    Quatient=a/b
+    return("Sum:" + Sum)
+    return("Difference:" + Difference)
+    return("Product:" + Product)
+    return("Quatient" + Quatient)
 
     
 # Example Output:
@@ -11,7 +18,11 @@ def perform_operations(a, b):
 # Quotient: 2.75
 
 def check_even_odd(n):
-    # Write your code here
+    for i in range(1, n+1)
+    if i%2==0:
+        return("Even")
+    else:
+        return("Odd")
 
     
 # Example Output:
@@ -23,7 +34,12 @@ def check_even_odd(n):
 # 5 Odd
 
 def compare_numbers(num1, num2):
-    # Write your code here
+    if num1>num2:
+        return(num1 + "is greater than" + num2)
+    if num2>num1:
+        return(num2 + "is greater than" num1)
+    else:
+        return("Both numbers are equal")
 
 
 # Example Output:
